@@ -31,6 +31,7 @@ async function displayImages(images) {
     .join('');
 
   gallery.insertAdjacentHTML('beforeend', cardsMarkup);
+  lightbox.refresh();
 }
 
 async function handleSearchFormSubmit(event) {
